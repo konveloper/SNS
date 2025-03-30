@@ -11,15 +11,15 @@ export const metadata: Metadata = {
 
 type Props = {
   children: React.ReactNode,
+  modal: React.ReactNode,
 };
 
-export default function RootLayout({
-  children,
-}: Props) {
+export default function RootLayout({ children, modal }: Props) {
   return (
     <html lang="en">
       <body className={inter.className}>
         {children}
+        {modal}
       </body>
     </html>
   )
