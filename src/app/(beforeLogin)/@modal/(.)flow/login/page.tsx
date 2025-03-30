@@ -1,5 +1,5 @@
 import LoginModal from '@/app/(beforeLogin)/_component/LoginModal';
 
-export default function FlowLoginPage() {
+export default function ModalFlowLoginPage() {
   return <LoginModal />
 }

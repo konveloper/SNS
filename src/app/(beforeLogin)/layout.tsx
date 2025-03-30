@@ -5,7 +5,7 @@ type Props = {
 
 export default function BeforeLoginLayout({ children, modal }: Props) {
   return (
-    <div className='relative'>
+    <div className='relative min-h-screen'>
       {children}
       {modal}
     </div>

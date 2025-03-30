@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className='flex flex-col gap-2'>
           <p className='text-sm'>다시 오셨군요. 반가워요!</p>
           <Link
-            href='/login' // 이후 '/flow/login' 리다이렉트
+            href='/flow/login' // 이후 '/flow/login' 리다이렉트
             className="w-fit px-4 py-1 bg-black text-white rounded
             hover:bg-blue-700 transition"
           >
